@@ -1,12 +1,19 @@
-import user from './components/social-profile/user.json';
-import SocialProfile from './components/social-profile/SocialProfile.jsx';
+import user from "./components/social-profile/user.json";
+import SocialProfile from "./components/social-profile/SocialProfile.jsx";
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
-      <SocialProfile props={ user }/>
+      <SocialProfile
+  name={user.name}
+  tag={user.tag}
+  location={user.location}
+  avatar={user.avatar}
+  stats={user.stats}
+      />
     </div>
   );
 }
 
-export default App;
+
