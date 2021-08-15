@@ -1,0 +1,43 @@
+.statistics {
+	width: 550px;
+    height: 200px;
+    margin: auto;
+    border: solid 1px rgb(211, 221, 221);
+}
+
+.title {
+	font-size: 16p;
+	color: #333333;
+	text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.stat-list{
+    height: 117px;
+    display: flex;
+    list-style: none;
+}
+
+.item{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px 0;
+  border: 2px solid rebeccapurple;
+}
+
+.label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.percentage{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/social-profile/App';
+import App from '../src/components/App';
+
+
 
 
 
