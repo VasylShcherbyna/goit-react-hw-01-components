@@ -1,6 +1,6 @@
-import styles from "../src/components/social-profile/profile.css";
-import user from "./components/social-profile/user.json";
-import SocialProfile from "./components/social-profile/SocialProfile.jsx";
+import styles from "./profile.css";
+import user from "./user.json";
+import SocialProfile from "./SocialProfile.jsx";
 
 export default function App() {
   return (
