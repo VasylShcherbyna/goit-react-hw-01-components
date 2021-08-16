@@ -6,6 +6,16 @@ import Statistic from "./Statistics/Statistic.jsx";
 import StatisticalData from "./Statistics/statistical-data.json";
 import StatisticalModule from "./Statistics/StatisticalModule.css";
 
+import Friends from './FriendList/FriendList.jsx';
+import FriendsData from './FriendList/friends.json';
+import FriendsModule from './FriendList/Friends-module.css';
+
+import Transactions from './TransactionHistory/TransactionHistory.jsx';
+import TransactionsData from './TransactionHistory/transactions.json';
+import TransactionsModule from "./TransactionHistory/Transactons-module.css";
+
+
+
 
 export default function App() {
   return (
@@ -17,7 +27,9 @@ export default function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistic title="Upload stats"  props={StatisticalData} />
+      <Statistic title="Upload stats" props={StatisticalData} />
+      <Friends FriendList={FriendsData} />
+      <Transactions items={TransactionsData} />
     </div>
   );
 }
