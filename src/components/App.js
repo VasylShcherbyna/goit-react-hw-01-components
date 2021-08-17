@@ -1,6 +1,6 @@
-import styles from "./social-profile/profile.css";
-import user from "./social-profile/user.json";
-import SocialProfile from "./social-profile/SocialProfile.jsx";
+import styles from "./Social-profile/Profile.css";
+import user from "./Social-profile/user.json";
+import SocialProfile from "./Social-profile/SocialProfile.jsx";
 
 import Statistic from "./Statistics/Statistic.jsx";
 import StatisticalData from "./Statistics/statistical-data.json";
